@@ -3,6 +3,6 @@
 # Specify the provider and access details
 provider "aws" {
   shared_credentials_file = "$HOME/.aws/credentials"
-  profile                 = "dev"
+  profile                 = "terraform"
   region                  = "us-west-2"
 }
